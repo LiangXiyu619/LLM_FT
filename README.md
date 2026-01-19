@@ -1,1 +1,27 @@
 # LLM_FT
+
+https://docs.google.com/document/d/1Qz3DE7_HsR2cDx3Ed43p3ZfGV_GkfaQlFXrWKvWxSss/edit?usp=sharing
+
+## 数据源
+
+https://github.com/amazon-science/esci-data?tab=readme-ov-file
+
+## 数据处理
+
+scripts/data.ipynb 数据处理代码
+LLaMA-Factory/data/esci/esci_alpaca_train.json 训练集
+LLaMA-Factory/data/esci/esci_alpaca_test.json 测试集
+LLaMA-Factory/data/esci/esci_alpaca_train_2.json 训练集(调整分布后)
+
+## 模型初筛
+
+scripts/model.ipynb 模型初筛代码
+scripts/data.ipynb 数据处理代码，含模型初筛数据集生成
+data/test_pretrain_model.jsonl 模型初筛数据集
+prediction_results/qwen_test_100_failed_1.jsonl 千问测试结果(格式混乱版)
+prediction_results/qwen_test.jsonl 千问测试结果
+prediction_results/mistral_test_100.jsonl mistral 测试结果
+
+## 微调
+
+## 评估
