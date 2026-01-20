@@ -1,0 +1,26 @@
+{
+  "esci": {
+    "file_name": "esci/esci_alpaca_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "esci_test": {
+    "file_name": "esci/esci_alpaca_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "esci_v2": {
+    "file_name": "esci/esci_alpaca_train_2.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
