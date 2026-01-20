@@ -24,4 +24,15 @@ https://github.com/amazon-science/esci-data?tab=readme-ov-file
 
 ## 微调
 
+https://github.com/hiyouga/LlamaFactory
+
+LLaMA-Factory 文件夹的文件应放在 LLaMA-Factory 库对应位置
+
+- LLaMA-Factory/config/esci_train.yaml 训练配置
+- LLaMA-Factory/config/esci_test.yaml 测试配置
+- LLaMA-Factory/data/esci/esci_alpaca_train.json 训练集
+- LLaMA-Factory/data/esci/esci_alpaca_test.json 测试集
+- LLaMA-Factory/data/esci/esci_alpaca_train_2.json 训练集(调整分布后)
+- LLaMA-Factory/data/dataset_info.json 数据集配置，3 个数据集添加到 LLaMA-Factory 对应配置中
+
 ## 评估
